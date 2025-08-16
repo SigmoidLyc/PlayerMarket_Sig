@@ -1,0 +1,31 @@
+# PlayerMarket_Sig 配置文件
+# By sigmoid QQ 1219269148
+
+# 税率设置 (0.0-1.0, 0.3表示30%)
+tax-rate: 0.3
+
+# 每个玩家最多创建售卖物品的数量
+max-sell-items: 10
+
+# 界面标题
+gui:
+  sell-title: "§6玩家寄卖 - 上传物品"
+  market-title: "§6玩家市场 - 购买物品"
+
+# 消息设置
+messages:
+  no-permission: "§c你没有权限使用此命令！"
+  no-vault: "§c未找到Vault插件，请安装后重启服务器！"
+  no-economy: "§c未找到经济插件，请安装经济插件后重启服务器！"
+  item-sold: "§a你的物品 §e%item% §a以 §e%price% §a的价格被 §e%player% §a购买了！"
+  item-bought: "§a你成功购买了 §e%item% §a，花费 §e%price%！"
+  item-listed: "§a成功上架物品 §e%item% §a，单价 §e%price%！"
+  item-removed: "§a成功下架物品 §e%item%！"
+  not-enough-money: "§c你的余额不足！需要 §e%price%，但你只有 §e%balance%！"
+  max-items-reached: "§c你已达到最大上架物品数量限制 §e%max%！"
+  invalid-price: "§c请输入有效的价格！"
+  invalid-amount: "§c请输入有效的数量！"
+  no-item: "§c请手持要出售的物品！"
+  price-set: "§a价格设置成功: §e%price%"
+  amount-prompt: "§a请输入要上架的数量 (1-%max%) (输入 'cancel' 取消):"
+  sell-success: "§a成功上架 §e%amount% §a个 §e%item%，单价 §e%price%！"

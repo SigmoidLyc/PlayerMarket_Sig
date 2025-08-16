@@ -1,0 +1,23 @@
+name: PlayerMarket_Sig
+version: '${version}'
+description: 玩家市场插件 - By sigmoid QQ 1219269148
+author: sigmoid
+main: com.playerMarket_Sig.PlayerMarket_Sig
+api-version: '1.21'
+depend: [Vault]
+
+commands:
+  pma:
+    description: 打开玩家寄卖界面
+    usage: /<command>
+  pmb:
+    description: 打开玩家市场
+    usage: /<command>
+
+permissions:
+  playermarket.use:
+    description: 允许使用玩家市场
+    default: true
+  playermarket.admin:
+    description: 管理员权限
+    default: op
